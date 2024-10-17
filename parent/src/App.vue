@@ -12,9 +12,9 @@ const toggle1 = () => {
     <!-- name：应用名称, url：应用地址 -->
     <div class="container">
       <div class="sub-app">
-        <p>vite+vue3:</p>
-        <button @click="toggle1">加载my-app-vite-vue3</button>
-        <micro-app v-if="open1" name='my-app-vite-vue3' url='http://127.0.0.1:5173/' iframe></micro-app>
+        <p>vue2:</p>
+        <button @click="toggle1">加载my-app-vue2</button>
+        <micro-app v-if="open1" name='my-app-vue2' url='http://127.0.0.1:8080/'></micro-app>
       </div>
     </div>
 
